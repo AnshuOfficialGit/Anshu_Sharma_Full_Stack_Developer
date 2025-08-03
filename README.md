@@ -22,7 +22,7 @@ A React + TypeScript web application that supports three distinct visual themes.
 
 ```bash
 # Clone the repository
-git clone https://github.com/AnshuOfficialGit/React-Theme-Switcher.git
+git clone https://github.com/AnshuOfficialGit/Anshu_Sharma_Full_Stack_Developer.git
 cd React-Theme-Switcher
 
 # Install dependencies
