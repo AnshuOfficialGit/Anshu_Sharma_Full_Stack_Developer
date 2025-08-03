@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+#root {
+  text-align: center;
+}
+
+[data-theme="theme1"] {
+  --bg: #fafcfd;
+  --text: #1f2937;
+  --header-bg: #ffffff;
+  --header-text: #1f2937;
+  --font: "Helvetica Neue", sans-serif;
+}
+
+[data-theme="theme2"] {
+  --bg: #000000;
+  --text: #f3f4f6;
+  --header-bg: #111827;
+  --header-text: #f3f4f6;
+  --font: "Georgia", serif;
+}
+
+[data-theme="theme3"] {
+  --bg: #fff0f5;
+  --text: #4b0082;
+  --header-bg: #ffccf9;
+  --header-text: #4b0082;
+  --font: "Pacifico", cursive !important;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  transition: all 0.3s ease;
+}
+
+aside.sidebar {
+  height: calc(100vh - 100px);
+}
